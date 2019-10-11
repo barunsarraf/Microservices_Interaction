@@ -1,0 +1,55 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  configServer:
+    image: configserver
+    build: ConfigServer/
+    restart: always
+    container_name: config-server
+
+  eureka:
+      image: eureka
+      build: eureka/
+      restart: always
+      container_name: eureka
+      ports:
+        - 8761:8761
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    volumes:
+      - $HOME/mongo:/data/db/
+
+
+  apiGateway: 
+    image: api-interface
+    build: ApiInterfaceServices/
+    restart: always
+    container_name: api-interface
+    depends_on:
+      - movie
+      - eureka
+    links:
+      - movie
+      - eureka
+    ports: 
+          - 8585:8585
+
+
+  movie: 
+    image: movie-image
+    build: MovieMicroService/
+    restart: always
+    container_name: movie-service
+    depends_on:
+      - mongo
+      - eureka
+      - configServer
+    links:
+      - mongo
+      - eureka
+      - configServer
