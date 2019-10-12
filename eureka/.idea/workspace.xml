@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93ce38c7-4dc5-456b-8ff6-f691387efb60" name="Default Changelist" comment="" />
+    <list default="true" id="93ce38c7-4dc5-456b-8ff6-f691387efb60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ApiInterfaceServices/target/surefire-reports/2019-10-12T10-29-01_896-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiInterfaceServices/target/surefire-reports/2019-10-12T10-29-01_896.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiInterfaceServices/target/surefire-reports/2019-10-12T10-40-47_773.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lowuser/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lowuser/src/main/java/com/example/lowuser/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lowuser/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../userservice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiInterfaceServices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiInterfaceServices/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiInterfaceServices/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiInterfaceServices/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiInterfaceServices/target/ApiInterfaceServices-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiInterfaceServices/target/ApiInterfaceServices-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiInterfaceServices/target/ApiInterfaceServices-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiInterfaceServices/target/ApiInterfaceServices-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiInterfaceServices/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiInterfaceServices/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiInterfaceServices/target/surefire-reports/2019-10-11T15-09-00_066.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiInterfaceServices/target/surefire-reports/TEST-com.stackroute.ApiInterfaceServices.ApiInterfaceServicesApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiInterfaceServices/target/surefire-reports/TEST-com.stackroute.ApiInterfaceServices.ApiInterfaceServicesApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiInterfaceServices/target/surefire-reports/com.stackroute.ApiInterfaceServices.ApiInterfaceServicesApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiInterfaceServices/target/surefire-reports/com.stackroute.ApiInterfaceServices.ApiInterfaceServicesApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfigServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConfigServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieMicroService/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieMicroService/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieMicroService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieMicroService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +38,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../User" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">

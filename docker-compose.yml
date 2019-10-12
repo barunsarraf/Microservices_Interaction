@@ -24,16 +24,17 @@ services:
     volumes:
       - $HOME/mongo:/data/db/
 
-
   apiGateway: 
     image: api-interface
     build: ApiInterfaceServices/
     restart: always
     container_name: api-interface
     depends_on:
+      - users
       - movie
       - eureka
     links:
+      - users
       - movie
       - eureka
     ports: 
@@ -53,3 +54,11 @@ services:
       - mongo
       - eureka
       - configServer
+
+  users:
+    image: user-image
+    build: userservice
+    restart: always
+    container_name: users
+    ports:
+          - 8202:8202
